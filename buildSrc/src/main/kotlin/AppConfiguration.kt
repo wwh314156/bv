@@ -1,14 +1,3 @@
-import java.io.File
-
-object AppConfiguration {
-    const val appId = "dev.aaa1115910.bv"
-    const val compileSdk = 36
-    const val minSdk = 21
-    const val targetSdk = 36
-    private const val major = 0
-    private const val minor = 3
-    private const val patch = 0
-    private const val hotFix = 0
 
     @Suppress("KotlinConstantConditions")
     val versionName: String by lazy {
